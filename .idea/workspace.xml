@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626bb9d9-8222-4a41-bbcb-9b6334e96d35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/SauceDemo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/SauceDemoAutomation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemoAutomation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/resources/features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/resources/features/order.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/runner/runLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/runner/runOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/order.java" afterDir="false" />
+    <list default="true" id="626bb9d9-8222-4a41-bbcb-9b6334e96d35" name="Changes" comment="4 testcase">
+      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/resources/features/checkout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/runner/runOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,17 +80,19 @@
       <option name="presentableId" value="Default" />
       <updated>1697705655264</updated>
     </task>
+    <task id="LOCAL-00001" summary="4 testcase">
+      <option name="closed" value="true" />
+      <created>1698141862703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698141862703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/saucedemo/cucumber/runner/runLogin.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4 testcase" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 testcase" />
   </component>
 </project>

@@ -4,13 +4,10 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.java.en_scouse.An;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.io.Console;
 import java.util.concurrent.TimeUnit;
 
 public class login {
@@ -28,7 +25,6 @@ public class login {
     @When("Input valid username")
     public void inputValidUsername() {
         String username = "standard_user";
-
         driver.findElement(By.id("user-name")).sendKeys(username);
     }
 
@@ -46,6 +42,7 @@ public class login {
     @Then("User in dashboard page")
     public void userInDashboardPage() {
         Assert.assertEquals("https://www.saucedemo.com/inventory.html", driver.getCurrentUrl());
+        driver.quit();
     }
 
     @And("Input invalid password")
@@ -57,7 +54,6 @@ public class login {
     @Then("User get error message")
     public void getErrorMessage() {
         Assert.assertEquals("Epic sadface: Username and password do not match any user in this service", driver.findElement(By.className("error-message-container")).getText());
+        driver.quit();
     }
-
-
 }

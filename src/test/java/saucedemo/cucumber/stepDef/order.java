@@ -10,8 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-import static saucedemo.cucumber.stepDef.login.*;
-
 public class order {
     WebDriver driver;
     String baseUrl = "https://www.saucedemo.com";
@@ -42,6 +40,7 @@ public class order {
     @Then("User in product detail page")
     public void detailProduct() {
         Assert.assertEquals("https://www.saucedemo.com/inventory-item.html?id=4", driver.getCurrentUrl());
+        driver.quit();
     }
 
     @When("User click add to chart button")
@@ -52,6 +51,6 @@ public class order {
     @Then("Product added to chart")
     public void productAddedToChart() {
         Assert.assertEquals("1", driver.findElement(By.className("shopping_cart_badge")).getText());
+        driver.quit();
     }
-
 }
