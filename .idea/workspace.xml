@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626bb9d9-8222-4a41-bbcb-9b6334e96d35" name="Changes" comment="4 testcase">
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/resources/features/checkout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/checkout.java" afterDir="false" />
+    <list default="true" id="626bb9d9-8222-4a41-bbcb-9b6334e96d35" name="Changes" comment="5 testcase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/runner/runOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/cucumber/stepDef/order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +20,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Trihastuti Yuniati &lt;trihastuti.yuniati@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -47,7 +48,8 @@
     "git-widget-placeholder": "master",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.runLogin">
@@ -88,11 +90,20 @@
       <option name="project" value="LOCAL" />
       <updated>1698141862703</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="5 testcase">
+      <option name="closed" value="true" />
+      <created>1698150369927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698150369927</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4 testcase" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 testcase" />
+    <MESSAGE value="5 testcase" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 testcase" />
   </component>
 </project>
